@@ -13,7 +13,7 @@ DataCasle精品旅行服务成单预测B榜Rank23解决方案
 利用业余时间玩一玩这类的数据挖掘比赛挺有意思的，能学到不少东西。作为萌新，分享下本次比赛我的比赛代码，就当做是学习过程的一个记录吧，最后用的是我的单模型，没有用啥stacking，成绩不算高，大家看看就好。第一次写这类分享，有什么问题也请各位大佬不吝赐教。
 
 ### How to run
-1 在根目录创建data、cache、submission三个文件夹，data用于存放数据文件、cache用于存放缓存文件、submission用于存放提交文件  
+1 在根目录创建cache、submission两个个文件夹，cache用于存放缓存文件、submission用于存放提交文件  
 2 设置根目录（os.chdir()）  
 3 运行higuides.py
 
