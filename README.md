@@ -19,7 +19,7 @@ DataCasle精品旅行服务成单预测B榜Rank23解决方案
 
 ### Feature Engineering
 
-userProfile： 
+userProfile：  
 1 缺失信息特征：是否有gender\province\age信息，缺失值个数，信息完整度  
 2 各性别类型历史购买精品服务比例、各年龄段历史购买精品服务比例、各省份历史购买精品服务比例  
 3 省份做LabelEncoder  
