@@ -18,11 +18,13 @@ DataCasle精品旅行服务成单预测B榜Rank23解决方案
 3 运行higuides.py
 
 ### Feature Engineering
-userProfile：  
+
+userProfile： 
 1 缺失信息特征：是否有gender\province\age信息，缺失值个数，信息完整度  
 2 各性别类型历史购买精品服务比例、各年龄段历史购买精品服务比例、各省份历史购买精品服务比例  
 3 省份做LabelEncoder  
-4 gender\province\age做哑变量  
+4 gender\province\age做哑变量 
+
 action：  
 1 用户历史各actionType的计数\比率  
 2 用户活跃天数、各actionType发生天数计数\比率  
@@ -39,6 +41,7 @@ action：
 13 用户最后一次下单后actionType计数\比率  
 14 用户actionTime时间差（2阶差分）统计特征，最近K个actionTime时间差（2阶差分）  
 15 用户行为序列小波变换  
+
 orderHistory：  
 1 用户历史各orderType计数/比率  
 2 用户历史订单的city个数、country个数、continent个数  
@@ -46,14 +49,17 @@ orderHistory：
 4 下单时间差  
 5 用户历史去各continent计数/比率  
 6 用户历史下单city/country/continent精品服务概率  
+
 userComment：  
 1 用户tags字数、词数  
 2 用户commentsKeyWords词数  
 3 rating  
+
 action & orderHistory：  
-1 用户下单前各actionType次数\占比  
+1 用户下单前各actionType次数\占比  
 2 用户每个动作到下单时间的时间差  
 3 用户每一单各actionType的时间差  
-4 用户最近一单各actionType的时间差  
+4 用户最近一单各actionType的时间差 
+
 lastest date Action：  
 1 最近1天各actionType次数及比率  
